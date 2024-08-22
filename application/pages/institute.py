@@ -48,7 +48,7 @@ def upload_to_pinata(file_path, api_key, api_secret):
 
 
 options = ("Generate Certificate", "View Certificates")
-selected = st.selectbox("", options, label_visibility="hidden")
+selected = st.selectbox(" ", options, label_visibility="hidden")
 
 if selected == options[0]:
     form = st.form("Generate-Certificate")

@@ -13,7 +13,7 @@ remove_whitespaces()
 
 
 options = ("Verify Certificate using PDF", "View/Verify Certificate using Certificate ID")
-selected = st.selectbox("", options, label_visibility="hidden")
+selected = st.selectbox(" ", options, label_visibility="hidden")
 
 if selected == options[0]:
     uploaded_file = st.file_uploader("Upload the PDF version of the certificate")
